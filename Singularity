@@ -20,4 +20,4 @@ From: continuumio/miniconda3
         conda config --add channels bioconda && \
         conda config --add channels default
         #INSTALL SOFTWARE
-        conda install -c transdecoder  && conda clean -a
+        conda install -c bioconda transdecoder  && conda clean -a
